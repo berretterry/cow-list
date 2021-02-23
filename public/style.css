@@ -1,0 +1,36 @@
+body {
+  background-color: lightblue;
+}
+
+.cow-name {
+  cursor: pointer;
+}
+
+.imp-cow {
+  border-color: black;
+  border-style: outset;
+  border-left: 2px;
+  border-right: 2px;
+  padding: 10px 0px 10px 0px;
+  font-family: fantasy;
+}
+
+.name-input {
+  padding: 3px 0px 3px 0px;
+  margin: 3px 0px 3px 0px;
+}
+
+.disc-input {
+  padding: 3px 0px 3px 0px;
+  margin: 3px 0px 3px 0px;
+}
+
+.addcow-button {
+  padding: 3px 0px 3px 0px;
+  margin: 3px 0px 3px 0px;
+  cursor: pointer;
+}
+
+.impname-false-text {
+  margin: 10px 0px 5px 0px;
+}

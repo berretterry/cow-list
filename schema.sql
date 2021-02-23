@@ -1,0 +1,22 @@
+DROP DATABASE IF EXISTS cowlist;
+
+CREATE DATABASE cowlist;
+
+USE cowlist;
+
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, INDEX, DROP, ALTER, CREATE TEMPORARY TABLES, LOCK TABLES ON cowlist.* TO 'student'@'localhost';
+
+GRANT FILE ON *.* TO 'student'@'localhost';
+
+DROP TABLE IF EXISTS cows;
+
+CREATE TABLE cows (
+  id INTEGER UNIQUE AUTO_INCREMENT,
+  cowname VARCHAR(20),
+  disc VARCHAR(140),
+  PRIMARY KEY (id)
+);
+
+LOAD DATA LOCAL INFILE './database/basedata.txt' INTO TABLE cows;
+
+
