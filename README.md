@@ -1,2 +1,3 @@
-# cow-list
-learning project for full stack
+## cow-list
+
+-Full Stack application built from scratch while learning.
